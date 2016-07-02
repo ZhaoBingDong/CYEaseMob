@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  环信及时通信
+//
+//  Created by dabing on 15/10/6.
+//  Copyright (c) 2015年 大兵布莱恩特. All rights reserved.
+//
+
+#ifndef _______PrefixHeader_pch
+#define _______PrefixHeader_pch
+#import "EaseMob.h"
+#define SHOW_ALERT(_MSG_)  UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示" message:_MSG_ delegate:nil cancelButtonTitle:@"好的" otherButtonTitles:nil, nil];\
+[alertView show];
+#define TYPEWEAKSELF __weak typeof(self)weakSelf = self;
+
+#import "MHDefine.h"
+#import "HMFileManager.h"
+#import "UIImageView+WebCache.h"
+#import "MHRefresh.h"
+#import "MJExtension.h"
+#import "MHCategory.h"
+#import "CMManager.h"
+#import "UserInfo.h"
+#import "EaseMob.h"
+#import "MBProgressHUD+Add.h"
+#import "MBProgressHUD.h"
+#import "keyboardHeadClass.h"
+#import "SoundManager.h"
+
+#endif
